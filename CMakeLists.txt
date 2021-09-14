@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.20)
-project(c___tiny)
+project(calculator)
 
 set(CMAKE_CXX_STANDARD 20)
 
@@ -14,7 +14,7 @@ add_subdirectory(./googletest)
 
 #set(SOURCE_FLIES main.cpp)
 #add_executable(${PROJECT_NAME} ${SOURCE_FLIES} ${SRC_LIST})
-add_executable(c___tiny main.cpp calculator.cpp calculator.h test.cpp)
+add_executable(calculator main.cpp calculator.cpp calculator.h test.cpp)
 
 
 #set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/bin")
